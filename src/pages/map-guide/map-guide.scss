@@ -1,0 +1,53 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.map-wrap{
+    width: 100vw;
+    height: 100vh;
+}
+
+.adress-info{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background: #fff;
+    padding:$sp_main;
+    box-sizing: border-box;
+
+    .adress-info-header{
+        position: relative;
+        h4{
+            font-size: 14px;
+            // padding-right: 60px;
+            line-height: 20px;
+        }
+    }
+    .store-distance{
+        color:$c_font_dark;
+        font-size: 13px;
+        line-height: 20px;
+        span{
+            color:$c_theme_main;
+        }
+    }
+    .adress-detail{
+        font-size: 13px;
+        line-height: 20px;
+        color:$c_font_dark;
+        margin-top:4px;
+    }
+    .check-adress-btn{
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border:1px solid $c_theme_sub;
+        border-radius: 4px;
+        margin-top:10px;
+        color:$c_theme_sub;
+    }
+}

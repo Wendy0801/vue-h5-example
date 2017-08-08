@@ -1,0 +1,25 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.result-main{
+    width:100%;
+    
+}
+
+.result-main{
+    text-align: center;
+    height: 68vh;
+    background: #fff;
+    padding-top: 165px;
+}
+
+.result-main i{
+    font-size: 64px;
+    color: #ff6300;
+}
+.result-main div{
+    font-size:18px;
+    color:#ff6300;
+    margin-top: 20px;
+}

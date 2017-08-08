@@ -1,0 +1,85 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+
+.hb{
+    border-bottom: 1px solid #f3f5f7;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+.hb img{
+    height: 20px;
+    margin-left: 16px;
+}
+.bc{
+    padding: 12px 15px;
+}
+
+.original-price{
+    text-decoration: line-through;
+    color:#999999;
+}
+.pm{
+    margin-left: 16px;
+}
+.original-text{
+    font-size:13px;
+    color:#999999;
+}
+.special-offer{
+    color: #FF6300;
+}
+.special-price{
+    font-size:26px; 
+}
+.special-text{
+    font-size:13px;
+    color:#ff6300;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+
+
+.buy-tab:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
+.buy-tab{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    margin: 0;
+    // padding: 0 15px;
+    border-top:1px solid #e2e4e5; 
+}
+.buy-tab div{width: 45%; padding-left:15px; }
+.buy-tab button{
+    height: 50px;
+    border: 0;
+    color: #fff;
+    width: 50%;
+    border-radius: 0;
+    font-size: 16px;
+    display: inline;
+    border-radius: 0;
+}
+.buy-tab button.saleing{
+    background: #FF6300;
+}
+.buy-tab button.sale-time{
+    background:#f6a623
+}

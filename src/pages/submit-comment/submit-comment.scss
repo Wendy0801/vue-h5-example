@@ -1,0 +1,198 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+section {
+            background: #fff;
+        }
+
+        .margin-bottom {
+            margin-bottom: 10px;
+        }
+
+        .bottom-border {
+            border: 1px solid #f3f5f7;
+        }
+
+        .sh {
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .spacing {
+            padding: 0 15px;
+        }
+
+        .st {
+            font-weight: bold;
+            margin-right: 20px;
+            font-size: 15px;
+        }
+
+        .comment-label {
+            margin-left: 49px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .comment-label span {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 8px;
+            margin-bottom: 10px;
+        }
+
+        .cf {
+            margin-left: 49px;
+        }
+
+        .cf:after {
+            clear: both;
+            content: '.';
+            display: block;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        textarea {
+            -webkit-appearance: none;
+            resize: none;
+            width: 100%;
+            height: 144px;
+            border-radius: 4px;
+            padding: 11px 13px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        textarea::-moz-placeholder:after {
+            content: "line@ \A line#";
+            /*  \A 表示换行  */
+            color: red;
+        }
+
+        textarea::-webkit-placeholder:after {
+            content: "line@ \A line#";
+            /*  \A 表示换行  */
+            color: red;
+        }
+
+        textarea::-webkit-textarea-placeholder::after {
+            display: block;
+            content: "Line 2\A Line 3";
+        }
+
+        .photo-list {
+            padding: 16px 0px;
+        }
+
+        .photo-list:after {
+            clear: both;
+            content: '.';
+            display: block;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .photo {
+            width: 22%;
+            margin-right: 4%;
+            margin-bottom: 16px;
+            /* height: 65px; */
+            position: relative;
+        }
+        
+        .photo:nth-of-type(4n) {
+            margin-right: 0;
+        }
+        .photo i{
+            position: absolute;
+            left: -8px;
+            top:-8px;
+            display: inline-block;
+            font-size:18px;
+        }
+        .photo img {
+            width: 100%;
+            height: 72px; 
+        }
+
+        .upload {
+            width: 21%;
+            margin-bottom: 16px;
+            height: 70px;
+            border: 1px dashed #ccc;
+            background-image: url("../../assets/icons/evaluate_pic_upload-pictures_nor.png");
+            background-size:100%;
+            background-position: 50% 50%; 
+            background-color: #F9FAFB;
+        }
+
+        .upload input {
+            width: 100%;
+             height: 70px; 
+            opacity: 0;
+        }
+
+        .comment-submit button {
+            color: #fff;
+            font-size: 16px;
+            -webkit-appearance: none;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            background: #ff3000;
+            border: 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        .star{
+            position: relative;
+        }
+        .star i{
+          
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .star .star-grey i{
+            color: #CCCCCC;
+        }
+        .star .star-red{
+             position: absolute;
+             left: 0;
+             top: 0;
+        }
+        .star .star-red i{
+            color: #ff3000;
+        }
+
+        .comment-mask{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,0);
+            top:40px;
+            left: 0;
+        }
+        .comment-label span.labeChose{
+            background: #ff3000;
+            color: #fff;
+            border: 1px solid #ff3000;
+        }

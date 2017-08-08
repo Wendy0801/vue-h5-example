@@ -1,0 +1,11 @@
+@charset "utf-8" ; 
+
+// 微信里打开的页面
+.h5-in-wechat{
+    .smi-header{
+        display: none;
+    }
+    .smi-content{
+        margin-top:0;
+    }
+}

@@ -1,0 +1,77 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.store-wrap{
+    background: #fff;
+}
+
+.store-header{
+    line-height:40px;
+    border-bottom: 1px solid $c_border;
+    padding:0 $sp_main;
+    font-size: 16px;
+}
+
+.store-list{
+
+}
+.store-item{
+    border-bottom: 1px solid $c_border;
+    position: relative;
+    padding:10px 14px ;
+    padding-right: 0;
+}
+.store-info{
+    padding:10px $sp_main;
+    padding-right: 60px;
+    .info-wrap{
+        border-right: 1px solid $c_border;
+        padding-right:10px;
+    }
+    .info-title{
+        position: relative;
+        h4{
+            font-size: 14px;
+            padding-right: 60px;
+            line-height: 20px;
+        }
+        .store-distance{
+            color:$c_theme_main;
+            font-size: 13px;
+            position: absolute;
+            right:0;
+            line-height: 20px;
+            width:60px;
+            text-align: right;
+        }
+    }
+    .store-location{
+        margin-top:4px;
+        i{
+            display: inline-block;
+            font-size:20px;
+            color:$c_font_dark;
+            transform: translateY(2px);
+        }
+        span{
+            font-size: 13px;
+            line-height: 20px;
+            color:$c_font_dark;
+        }
+    }
+}
+.store-call{
+    position: absolute;
+    top:50%;
+    right:10px;
+    width:48px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform:translate3d(0,-50%,0);
+    i{
+        font-size: 30px;
+        color:$c_theme_main;
+    }
+}

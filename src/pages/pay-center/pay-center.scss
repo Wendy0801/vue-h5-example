@@ -1,0 +1,62 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.pay-countdown{
+    padding:20px 0;
+    text-align: center;
+    font-size:18px;
+    background: #fff;
+    h4{
+    }
+    span{
+        color:$c_theme_main;
+    }
+}
+
+.pay-type-container{
+    margin-top:10px;
+    background:#fff;
+}
+.pay-type-item{
+    padding:16px 46px;
+    border-bottom:1px solid $c_border;
+    // line-height: 30px;
+    position: relative;
+    background:no-repeat 10px center;
+    background-size:auto 26px;
+}
+.pay-type-balance{
+    background-image:url("../../assets/icons/pay-balance.png") ;
+}
+.pay-type-ali{
+    background-image:url("../../assets/icons/pay-ali.png") ;
+}
+.pay-type-wechat{
+    background-image:url("../../assets/icons/pay-wechat.png") ;
+}
+.type-select-icon{
+    position: absolute;
+    right: 10px;
+    width:26px;
+    height: 26px;
+    line-height: 26px;
+    top:50%;
+    transform: translate3d(0,-50%,0);
+    // background:pink;
+    text-align: center;
+    i{
+        font-size: 20px;
+        color:#ccc;
+    }
+}
+.active i{
+    color:$c_theme_main;
+}
+
+.pay-count{
+    margin-top:10px;
+    background: #fff;
+    padding:10px;
+    line-height: 30px;
+}

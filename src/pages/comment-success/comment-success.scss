@@ -1,0 +1,23 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+section{
+    text-align: center;
+    height: 68vh;
+    background: #fff;
+    padding-top: 165px;
+}
+
+section i{
+    font-size: 64px;
+    color: #ff6300;
+}
+section div{
+    font-size:18px;
+    color:#ff6300;
+    margin-top: 20px;
+}
+.fr{
+    float: right;
+}

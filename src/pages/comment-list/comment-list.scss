@@ -1,0 +1,62 @@
+
+@import '../../themes/_variable.scss' ;
+
+
+.comment-nav:after{
+    display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;
+}
+.comment-nav ul{
+    background: #fff;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    border-bottom:1px solid #f3f5f7;
+    z-index: 1;
+}
+.comment-nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 50px;
+    line-height: 48px;
+}
+.comment-nav ul li.active div{
+    border-bottom: 2px solid #FF6300;
+    color: #FF6300;
+}
+
+
+
+
+.comment-contain{
+    margin-top: 50px;
+    background: #fff;
+}
+
+ .comment-contain .comment-content ul:after {
+        display: block;
+        content: "clear";
+        height: 0;
+        clear: both;
+        overflow: hidden;
+        visibility: hidden;
+    }
+.comment-contain .comment-list {
+        padding: 10px 0px;
+}
+
+.no-comment{
+    text-align: center;
+}
+.no-comment .no-comment-con{
+    margin-top: 200px
+}
+.no-comment img{
+        height: 90px;
+        width: 90px;
+}
+.no-comment p{
+    margin-top: 20px;
+}
+
+

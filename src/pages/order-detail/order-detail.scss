@@ -1,0 +1,208 @@
+
+@import '../../themes/_variable.scss' ;
+@import '../../themes/_basic.scss' ;
+
+.order-main{
+    .icon-right{
+        color:$c_font_dark;
+    }
+    // padding-bottom: 0;
+}
+.has-padding-bottom{
+    padding-bottom: 50px;
+}
+.detial-block{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.detail-single-row{
+    padding:0 $sp_main;
+    line-height: 40px;
+    .fl{
+        font-size: 15px;
+    }
+    .fr{
+        font-size: 14px;
+    }
+}
+.block-header{
+    padding:0 $sp_main;
+    line-height: 40px;
+    border-bottom: 1px solid $c_border;
+    .fl{
+        font-size: 15px;
+    }
+    .fr{
+        font-size: 14px;
+    }
+}
+.block-content{
+    padding:10px $sp_main;
+}
+.block-footer{
+    padding:0 $sp_main;
+    line-height: 40px;
+    border-top: 1px solid $c_border;
+    .fl{
+        font-size: 15px;
+    }
+    .fr{
+        font-size: 14px;
+    }
+}
+
+.order-shop-info{
+    .info-wrap{
+        position: relative;
+    }
+    .shop-logo{
+
+    }
+    img{
+        width:80px;
+        height: 80px;
+    }
+    .shop-info{
+        padding-left:90px;
+        padding-right: 20px;
+    }
+    .shop-title{
+        font-size: 15px;
+    }
+    .shop-price{
+        margin-top:$sp_xs;
+        span{
+            font-size: 16px;
+            color:$c_theme_main;
+        }
+        del{
+            margin-left:$sp_xs;
+            font-size: 13px;
+            color:$c_font_dark;
+        }
+    }
+    .arrow-link{
+        position: absolute;
+        right:0;
+        top:50%;
+        transform: translate3d(0,-50%,0);
+    }
+
+    .shop-tags{
+        line-height: 24px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        .tags-list{
+
+        }
+        .tag-item{
+            float:left;
+            margin-right: 10px;
+            i{
+                font-size: 14px;
+                color:$c_theme_main;
+            }
+            .dark{
+                color:$c_font_dark;
+            }
+            span{
+                font-size: 11px;
+                color:$c_font_dark;
+            }
+        }
+    }
+}
+
+.order-voucher{
+    .block-content{
+        text-align: center;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    p{
+        margin-top:$sp_s;
+        font-size: 12px;
+    }
+    .block-footer{
+        .fl{
+            font-size: 14px;
+        }
+    }
+}
+
+// 套餐内容
+.order-package{
+    font-size: 14px;
+    .block-row{
+        padding:$sp_s 0;
+        .row-title{
+            width:58%;
+            min-height: 20px;
+            padding-right: 10px;
+            box-sizing: border-box;
+        }
+        .row-unit{
+            width:18%;
+            text-align: right;
+            box-sizing: border-box;
+            padding-right: 4px;
+        }
+        .row-price{
+            width:24%;
+            text-align: right;
+        }
+    }
+}
+
+// 订单信息
+.order-info-detail{
+    .order-info-row{
+        padding:$sp_xs 0;
+    }
+}
+
+.actionbar-col2{
+    button{
+        width:50%;
+        float:left;
+    }
+}
+.dark-btn{
+    background:#fff;
+    color:#333;
+}
+.row-unit-dark{
+    color:#666;
+}
+
+.pay-tip{
+    background:#f0f0f0;
+    color:$c_theme_main;
+    text-align: center;
+    line-height: 26px;
+    font-size: 13px;
+}
+.order-feedback{
+    a {
+        display: block;
+    }
+}
+
+.consumer-information{
+    line-height: 20px;
+    .consumer-row{
+        margin-bottom:6px;
+        h5{
+            font-size: 14px;
+            // width:68px;
+            padding-right: 10px;
+            margin-bottom: 6px;
+        }
+        span{
+            color:#666;
+            font-size: 13px;
+        }
+    }
+}

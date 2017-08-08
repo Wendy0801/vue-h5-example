@@ -1,0 +1,19 @@
+// config
+export const TOGGLE_LOAD_STATU = 'TOGGLE_LOAD_STATU'
+export const SET_ACTION_STATU = 'SET_ACTION_STATU'
+export const SET_IS_WECHAT = 'SET_IS_WECHAT'
+export const SET_IS_APP = 'SET_IS_APP'
+export const SHOW_FOLLOW_FLAG = 'SHOW_FOLLOW_FLAG'
+export const SET_ENTER_HASH = 'SET_ENTER_HASH'
+export const SET_BANNER_LIST = 'SET_BANNER_LIST'
+
+// activity
+export const SET_PROJECT_LIST = 'SET_PROJECT_LIST'
+export const SET_PLAYER_LIST = 'SET_PLAYER_LIST'
+export const SET_PLAYER_SORTTYPE = 'SET_PLAYER_SORTTYPE'
+export const UPDATE_PLAYER_INFO = 'UPDATE_PLAYER_INFO'
+export const SET_MASK_FLAG = 'SET_MASK_FLAG'
+
+// user
+export const SET_USERINFO = 'SET_USERINFO'
+
